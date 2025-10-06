@@ -22,12 +22,16 @@ BATTERY_ENERGY_DENSITY = 321*1000   # Wh/m^3
 CAPACITOR_SPECIFIC_ENERGY = 7     # Wh/kg
 CAPACITOR_ENERGY_DENSITY = 9*1000 # Wh/m^3
 CAPACITOR_POWER_RATIO = 0.1       # What fraction of power will be provided by the supercapacitor
+# CAPACITOR_POWER_RATIO = 0       # (option 2)
 CAPACITOR_POWER_DENSITY = 20000   # W/kg
 
 
 # PCDU data (Thales ARSAT PCDU)
 PCDU_MASS = 16.6                  # kg
 PCDU_VOLUME = 332*345*193 * 1e-9  # m^3
+# PCU and PDU data combined (option 2) 
+# PCDU_MASS = 6.5+16
+# PCDU_VOLUME = (286*196*142 + 455*270*200) * 1e-9
 
 # Subsystems and their power requirement in watts, with 20% margin
 SUBSYSTEMS = {
